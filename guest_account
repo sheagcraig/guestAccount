@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# We're going to call these a lot, so let's put the full path in
+dscl='/usr/bin/dscl'
+security='/usr/bin/security'
+
+# Handle the arguments
+case $1 in 
+	'enable'|'true'|'True'|'TRUE')
+		logger "$0: Enabling the guest account"
+		guest_enable
+		;;
+	'disable'|'false'|'False'|'FALSE')
+		logger "$0: Disabling the guest account"
+		guest_disable
+		;;
+	*)
+		echo "Usage: guest_account enable|disable"
+		;;
+esac
+
+function guest_enable {
+}
+
+function guest_disable {
+}
