@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BookmarksToolbarProxiesWereConvertedForSafari4</key>
+	<true/>
+	<key>CachedBookmarksFileDateNanoseconds</key>
+	<integer>0</integer>
+	<key>CachedBookmarksFileDateSeconds</key>
+	<integer>1314053074</integer>
+	<key>CachedBookmarksFileSize</key>
+	<integer>2623</integer>
+	<key>ConvertedNewWindowBehaviorForTopSites</key>
+	<true/>
+	<key>DidAddReadingListToBookmarksBar</key>
+	<true/>
+	<key>DidMigrateNewBookmarkSheetToReadingListDefault</key>
+	<true/>
+	<key>DidMigrateWebKit1Preferences</key>
+	<true/>
+	<key>DidPromptToFetchRecentHistoryPreviews</key>
+	<false/>
+	<key>DownloadsClearingPolicy</key>
+	<integer>2</integer>
+	<key>DownloadsPath</key>
+	<string>~/Downloads</string>
+	<key>DownloadsPathWasConverted</key>
+	<true/>
+	<key>HasPendingDefaultSearchProvider</key>
+	<false/>
+	<key>HomePage</key>
+	<string>http://library.da.org</string>
+	<key>LastDisplayedWelcomePageVersionString</key>
+	<string>4.0</string>
+	<key>NSPreferencesSelectedIndex</key>
+	<integer>0</integer>
+	<key>NSToolbar Configuration NSPreferences</key>
+	<dict>
+		<key>TB Display Mode</key>
+		<integer>1</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array>
+			<string>General</string>
+			<string>Appearance</string>
+			<string>Bookmarks</string>
+			<string>Tabs</string>
+			<string>RSS</string>
+			<string>AutoFill</string>
+			<string>Security</string>
+			<string>Advanced</string>
+		</array>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+		<key>TB Visibility Priority Values</key>
+		<dict/>
+	</dict>
+	<key>NSWindow Frame BrowserWindowFrame</key>
+	<string>21 219 1024 786 0 0 1680 1028 </string>
+	<key>NSWindow Frame Preferences</key>
+	<string>52 125 593 390 0 0 1440 878 </string>
+	<key>NewTabBehavior</key>
+	<integer>1</integer>
+	<key>NewWindowBehavior</key>
+	<integer>0</integer>
+	<key>OpenWindows</key>
+	<array>
+		<string>BrowserWindowControllerMac</string>
+	</array>
+	<key>ProxiesInBookmarksBar</key>
+	<array>
+		<string>Top Sites</string>
+		<string>Reading List</string>
+	</array>
+	<key>RegisteredSafariSyncClient</key>
+	<true/>
+	<key>RegisteredSafariSyncClientInSafari31Location</key>
+	<true/>
+	<key>RemoteConfigurationLastUpdateFailed</key>
+	<false/>
+	<key>RemoteConfigurationLastUpdateTime</key>
+	<real>335745953.00072998</real>
+	<key>SafariGeolocationPermissionPolicy</key>
+	<integer>1</integer>
+	<key>SearchProviderManifestLastUpdateFailed</key>
+	<false/>
+	<key>SearchProviderManifestLastUpdateTime</key>
+	<real>272769198.86104</real>
+	<key>ShowStatusBar</key>
+	<true/>
+	<key>SuccessfulLaunchTimestamp</key>
+	<real>335745984</real>
+	<key>UserStyleSheetEnabled</key>
+	<false/>
+	<key>WebKitJavaScriptCanOpenWindowsAutomatically</key>
+	<true/>
+	<key>WebKitRespectStandardStyleKeyEquivalents</key>
+	<true/>
+	<key>com.apple.Safari.ContentPageGroupIdentifier.WebKit2AllowFileAccessFromFileURLs</key>
+	<true/>
+	<key>com.apple.Safari.ContentPageGroupIdentifier.WebKit2AllowUniversalAccessFromFileURLs</key>
+	<true/>
+	<key>com.apple.Safari.ContentPageGroupIdentifier.WebKit2DefaultTextEncodingName</key>
+	<string>iso-8859-1</string>
+	<key>com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaScriptCanOpenWindowsAutomatically</key>
+	<true/>
+	<key>com.apple.Safari.ReaderPageGroupIdentifier.WebKit2DatabasesEnabled</key>
+	<false/>
+	<key>com.apple.Safari.ReadingListFetcher.WebKit2JavaScriptEnabled</key>
+	<false/>
+	<key>com.apple.Safari.ReadingListFetcher.WebKit2LoadsImagesAutomatically</key>
+	<false/>
+	<key>com.apple.Safari.ReadingListFetcher.WebKit2LoadsSiteIconsIgnoringImageLoadingPreference</key>
+	<true/>
+	<key>com.apple.Safari.ReadingListFetcher.WebKit2PluginsEnabled</key>
+	<false/>
+</dict>
+</plist>
