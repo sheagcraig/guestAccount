@@ -1,3 +1,5 @@
 #!/bin/bash
 
 /Library/Management/guest_account enable
+
+exit 0
