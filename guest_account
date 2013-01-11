@@ -26,7 +26,8 @@ function guest_enable {
 			logger -s "$0: Not implemented"
 
 			exit 0
-	else
+		fi
+
 		# Lion+ has a different procedure for enabling the guest account
 		if [ "$(sw_vers | grep -o '10\.[7-8]')" != "" ]; then
 			logger "$0: Enabling 10.7/10.8 Guest"
