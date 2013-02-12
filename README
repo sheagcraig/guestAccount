@@ -1,0 +1,12 @@
+The Luggage Makefile for producing a package to enable the guest account, currently only on 10.7 and higher machines.
+
+Because I haven't been able to figure out how to do the keychains correctly, I have the following lines as part of a launchagent running on all of our lab machines.
+
+if [[ ${USER} == 'Guest' ]]; then
+	# Until I can figure out how to get this created properly, we need to
+	# create the keychain, and then assign it as the login keychain to the
+	# guest user
+	keychain='/Users/Guest/Library/Keychains/login.keychain'
+	security create-keychain -p '' $keychain
+	security login-keychain -s $keychain
+fi
