@@ -28,7 +28,7 @@ function guest_enable {
 			exit 0
 		fi
 
-		# Lion+ has a different procedure for enabling the guest account
+		# Lion+ procedure
 		if [ "$(sw_vers | grep -o '10\.[7-8]')" != "" ]; then
 			logger "$0: Enabling 10.7/10.8 Guest"
 			$dscl . -create /Users/Guest
@@ -52,13 +52,6 @@ function guest_enable {
 			$dscl . -create /Users/Guest UniqueID 201
 			$dscl . -create /Users/Guest UserShell /bin/bash
 			$security add-generic-password -a Guest -s com.apple.loginwindow.guest-account -D "application password" /Library/Keychains/System.keychain
-
-			# Trying to figure out how to create a login keychain for guest
-			#$security create-keychain -p '' 
-			# Not sure if this is needed-on my 10.8.2 machine it automatically creates and removes the home on login/logout
-			#mkdir /Users/Guest
-			#cp -R "/System/Library/User Template/English.lproj/" /Users/Guest
-			#chown -R Guest:_guest /Users/Guest
 			
 			# This seems to be technically unnecessary; it controls whether the "Allow 
 			# guests to log in to this computer" checkbox is enabled in SysPrefs 
@@ -83,6 +76,7 @@ function guest_disable {
 
 	# Also-do we need this still? (Should un-tick the box)
 	defaults write /Library/Preferences/com.apple.loginwindow GuestEnabled -bool FALSE
+
 	# Doesn't have an effect, but here for reference
 	#defaults write /Library/Preferences/com.apple.loginwindow DisableGuestAccount -bool TRUE
 	#defaults write /Library/Preferences/com.apple.loginwindow EnableGuestAccount -bool FALSE
