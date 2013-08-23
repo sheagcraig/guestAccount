@@ -4,7 +4,7 @@ TITLE=guest_account
 REVERSE_DOMAIN=org.da
 PAYLOAD=\
 		pack-Library-Management-guest_account\
-		pack-script-postflight\
+		pack-script-postinstall\
 
 PACKAGE_VERSION=1.1
 
